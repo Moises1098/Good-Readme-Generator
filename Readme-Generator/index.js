@@ -19,11 +19,6 @@ inquirer
     },
     {
       type: 'input',
-      name: 'tableofcontents',
-      message: 'What is the table of index.js contents for your project?',
-    },
-    {
-      type: 'input',
       name: 'Installation',
       message: 'What is your Installation for your project?',
     },
@@ -39,18 +34,24 @@ inquirer
     },
     {
       type: 'input',
-      name: 'license',
-      message: 'What is the license for your project',
-    },
-    {
-      type: 'input',
       name: 'tests',
       message: 'What are the tests for your project?',
     },
     {
+      type: 'list',
+      name: 'license',
+      message: 'What is the license for your project',
+      choices: ['MIT License','Apache License 2.0', 'GPL 3.0' , 'BSD 3'],
+    },
+    {
       type: 'input',
-      name: 'questions',
-      message: 'what is the usage for your project',
+      name: 'github',
+      message: "What is your GitHub username? (No @ needed)",
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: "What is youremail?",
     },
   ])
   .then((answers) => {
