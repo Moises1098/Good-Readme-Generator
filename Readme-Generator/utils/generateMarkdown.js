@@ -33,7 +33,7 @@ ${data.Installation}
 ${data.usage}
 
 ## License
-![badge](https://img.shields.io/badge/license-${data.license}-blue)
+![badge](https://img.shields.io/badge/license-${data.license})
 <br />
 This application is covered by the ${data.license} license. 
 

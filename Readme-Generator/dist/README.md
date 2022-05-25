@@ -19,7 +19,7 @@ node index.js is needed to run
 
 
 ## License
-![badge](https://img.shields.io/badge/license-MIT License-blue)
+![badge](https://img.shields.io/badge/license-MITLicense-blue)
 <br />
 This application is covered by the MIT License license. 
 

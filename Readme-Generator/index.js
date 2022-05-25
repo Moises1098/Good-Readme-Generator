@@ -41,7 +41,7 @@ inquirer
       type: 'list',
       name: 'license',
       message: 'What is the license for your project',
-      choices: ['MIT License','Apache License 2.0', 'GPL 3.0' , 'BSD 3'],
+      choices: ['MIT License-blue','Apache License 2.0-blue', 'GPL 3.0-blue' , 'BSD 3-blue'],
     },
     {
       type: 'input',
