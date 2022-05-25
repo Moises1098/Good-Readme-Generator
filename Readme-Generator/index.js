@@ -51,7 +51,7 @@ inquirer
     {
       type: 'input',
       name: 'email',
-      message: "What is youremail?",
+      message: "What is your email?",
     },
   ])
   .then((answers) => {
